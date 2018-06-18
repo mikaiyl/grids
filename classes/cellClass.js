@@ -24,8 +24,9 @@ Cell.prototype = {
         this.html.style.gridRow = this.row + 1
         this.html.style.gridColumn = this.col + 1
         this.html.style.backgroundColor = 'teal'
-        this.html.style.minHeight = '30px'
-        this.html.style.minWidth = '30px'
+        this.html.style.margin = '5px'
+        this.html.style.minHeight = '50px'
+        this.html.style.minWidth = '70px'
 
         return this.html
     },

@@ -10,3 +10,9 @@
 #foot {
     position: relative;
 }
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
